@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="First.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="MasterStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="header">
+        <p>C# and Master</p>
+    </div>
+    <div class="nav">
+       <ul>
+           <li><a href="#"> Home</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#"> Contact Us</a></li>
+           <li><a href="#"> Faqs</a></li>
+           <li><a href="Login.aspx">Login</a></li>
+           <li><a href="CreateAccount.aspx">Create Account</a></li>
+
+
+       </ul> 
+    </div>
+    <div class="aside">
+        <p>#Side bar</p>
+    </div>
+    <div class="section">
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+        </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Create Account</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿body {
+    background-color:lightgray;
+    color:black;
+
+}
+.header
+{
+    width:100%;
+    height:auto;
+    border:1px solid green;
+    border-radius:5px;
+    text-align:center;
+    font-size:16px;
+    background-color:aqua;
+}
+.nav {
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+}
+.aside {
+    width: 25%;
+    height: 100px;
+    float:left;
+    border: 1px solid green;
+    margin-right:3%;
+}
+.section {
+    width: 70%;
+    height:auto;
+    float: left;
+    border: 1px solid magenta;
+}
+.footer {
+    background-color:black;
+    color: white;
+    width:100%;
+    height: auto;
+    border: 1px solid skyblue;
+    clear:both;
+}
+ul li a
+{
+    color:lightgray;
+    text-decoration:none;
+}
+ul li a:hover
+{
+    background-color:black;
+    color:red;
+}

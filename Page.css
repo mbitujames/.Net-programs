@@ -1,0 +1,22 @@
+﻿body {
+
+}
+.label, .textbox
+{
+    width:100%;
+
+}
+.textbox
+{
+    border:1px solid gold;
+    border-radius:5px;
+
+}
+.button
+{
+    width:50%;
+    margin-left:24%;
+    margin-right:24%;
+    background-color:black;
+    color:gold;
+}
