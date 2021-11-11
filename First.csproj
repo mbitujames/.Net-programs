@@ -78,6 +78,8 @@
     <Content Include="Grading.aspx" />
     <Content Include="LoanCal.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Loops.aspx" />
+    <Content Include="Method1.aspx" />
     <Content Include="Page.css" />
     <Content Include="RealEstateLogin.aspx" />
     <Content Include="RealEstateRegister.aspx" />
@@ -134,12 +136,26 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Loops.aspx.cs">
+      <DependentUpon>Loops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loops.aspx.designer.cs">
+      <DependentUpon>Loops.aspx</DependentUpon>
+    </Compile>
     <Compile Include="master.Master.cs">
       <DependentUpon>master.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="master.Master.designer.cs">
       <DependentUpon>master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Method1.aspx.cs">
+      <DependentUpon>Method1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Method1.aspx.designer.cs">
+      <DependentUpon>Method1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RealEstateLogin.aspx.cs">
